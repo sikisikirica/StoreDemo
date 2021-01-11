@@ -1,0 +1,62 @@
+body{
+font-family: Helvetica, Arial, sans-serif;
+display: flex;
+flex-direction:row;
+
+}
+.product{
+    background-color: lightsteelblue;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+button{
+    margin: 10px;   
+}
+
+.qinput{
+    width: 50px;
+}
+
+#viewCart{
+    float: right;
+}
+
+#cart{
+    padding: 10px;
+    background-color: lightyellow;
+    margin-left: 20px;
+    height: fit-content;
+    
+
+}
+#app{
+    padding: 10px;
+    background-color: lightyellow;
+    height: fit-content;
+
+}
+.infoForm{
+display: flex;
+flex-direction:column;
+}
+.infoFormEntry{
+    display: flex;
+    flex-direction:column;
+}
+#removeItem{
+    float: right;
+}
+.orderItem{
+    display: flex;
+    flex-direction:row; 
+    background-color: beige;
+    margin: 5px;
+    
+}
+.orderInfo{
+    margin: 10px;
+    
+}
+#message{
+    color: crimson;
+}
